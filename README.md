@@ -20,7 +20,7 @@
         public function testSub()
         {
             $calc = new Calc();
-            $this->assertEquals($calc->add(3, 2), 1);
+            $this->assertEquals($calc->sub(3, 2), 1);
         }
     ```
 1. プッシュすると、自動テストが1箇所失敗することがわかります
