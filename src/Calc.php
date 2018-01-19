@@ -21,7 +21,10 @@ class Calc {
 
     function zero($a, $b) {
         if($b==0){
-		return 1;
+		return 2;
+	}
+	else {
+		return $a / $b;
 	}
     }
 }
