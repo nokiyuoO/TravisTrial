@@ -26,7 +26,7 @@ class CalcTest extends TestCase
     public function testWarizan()
     {
         $calc = new Calc();
-        $this->assertEquals($calc->kakezan(4,4),1);
+        $this->assertEquals($calc->warizan(4,4),1);
     }
 }
 ?>
