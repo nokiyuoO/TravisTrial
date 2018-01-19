@@ -28,5 +28,11 @@ class CalcTest extends TestCase
         $calc = new Calc();
         $this->assertEquals($calc->warizan(4,4),1);
     }
+
+    public function testZero()
+    {
+        $calc = new Calc();
+        $this->assertEquals($calc->warizan(4,0),1);
+    }
 }
 ?>
