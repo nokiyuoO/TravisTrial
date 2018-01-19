@@ -16,6 +16,6 @@ class Calc {
     }
 
     function warizan($a, $b) {
-        return $a * $b;
+        return $a / $b;
     }
 }
