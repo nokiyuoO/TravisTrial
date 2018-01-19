@@ -14,4 +14,8 @@ class Calc {
     function kakezan($a, $b) {
         return $a * $b;
     }
+
+    function warizan($a, $b) {
+        return $a * $b;
+    }
 }
