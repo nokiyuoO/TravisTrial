@@ -12,6 +12,6 @@ class Calc {
     }
 
     function kakezan($a, $b) {
-        return $a - $b;
+        return $a * $b;
     }
 }
