@@ -10,4 +10,8 @@ class Calc {
     function sub($a, $b) {
         return $a - $b;
     }
+
+    function kakezan($a, $b) {
+        return $a - $b;
+    }
 }

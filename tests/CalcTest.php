@@ -15,5 +15,10 @@ class CalcTest extends TestCase
         $calc = new Calc();
         $this->assertEquals($calc->sub(3,2),1);
     }
+    public function testKakezan()
+    {
+        $calc = new Calc();
+        $this->assertEquals($calc->kakezan(4,4),16);
+    }
 }
 ?>
