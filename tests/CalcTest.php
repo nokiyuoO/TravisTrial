@@ -32,7 +32,7 @@ class CalcTest extends TestCase
     public function testZero()
     {
         $calc = new Calc();
-        $this->assertEquals($calc->warizan(4,0),1);
+        $this->assertEquals($calc->zero(4,0),1);
     }
 }
 ?>
